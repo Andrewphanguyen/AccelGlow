@@ -96,8 +96,8 @@ This creates:
 
 Speed is sent through PWM to the L298N enable pins:
 
-ENA → pin 3
-ENB → pin 9
+* ENA → pin 3
+* ENB → pin 9
 
 PWM range: 0 -> 255
 
@@ -110,4 +110,11 @@ AccelGlow reports:
 * Current speed
 
 Useful for testing and tuning acceleration.
+
+## Future Improvements and Additions
+
+* Add a joystick input
+* Better Wire management
+* clean up code
+* Wireless control via Bluetooth
 
