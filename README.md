@@ -74,3 +74,40 @@ External power source (optional for motors)
 | 3      | Left     |
 | 4      | Right    |
 
+
+## How It Works
+## 1. Matrix Scanning
+
+The Arduino scans each row and checks each column for button presses.
+
+## 2. Exponential Acceleration
+
+Acceleration uses:
+
+v_new =v+(0.07v+1)
+
+This creates:
+
+* Slow startup
+* Smooth ramp-up
+* Faster acceleration near max speed
+  
+## 3. PWM Output
+
+Speed is sent through PWM to the L298N enable pins:
+
+ENA → pin 3
+ENB → pin 9
+
+PWM range: 0 -> 255
+
+## 4. Serial Debugging
+
+AccelGlow reports:
+
+* Button pressed
+* Direction
+* Current speed
+
+Useful for testing and tuning acceleration.
+
