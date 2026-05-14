@@ -1,6 +1,6 @@
 # AccelGlow
 
-Demo Video: [Watch AccelGlow Demo](https://youtu.be/5spB4EzLQUQ)
+Demo Video: [Watch AccelGlow Demo](demo-thumbnail.png)(https://youtu.be/5spB4EzLQUQ)
 
 A PWM-controlled Arduino motor/LED acceleration system using an L298N H-Bridge and custom 2x2 button matrix input.
 
