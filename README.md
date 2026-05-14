@@ -14,3 +14,63 @@ The project was built to explore:
 * Non-blocking timing using millis()
 * Exponential acceleration curves
 * Real-time serial debugging
+
+### Features
+
+* Smooth exponential acceleration
+* Forward, backward, left, and right movement
+* Custom 2x2 matrix button input
+* Direction, button, and speed output
+* Works with motors or LEDs for visual testing
+
+### Demo
+
+When running, the Serial Monitor outputs:
+
+Button: 1 | Direction: Forward | Speed: 8
+Button: 1 | Direction: Forward | Speed: 15
+Button: 1 | Direction: Forward | Speed: 23
+Button: 3 | Direction: Left | Speed: 48
+Button: 0 | Direction: Stopped | Speed: 0
+
+### Hardware Used
+Arduino Uno (or compatible)
+L298N Motor Driver
+LEDs or DC motors
+Push Buttons
+Breadboards
+Jumper wires
+External power source (optional for motors)
+
+
+### Wiring
+
+| L298N Pin | Arduino Pin |
+| --------- | ----------- |
+| ENA       | 3 (PWM)     |
+| ENB       | 9 (PWM)     |
+| IN1       | 8           |
+| IN2       | 4           |
+| IN3       | 5           |
+| IN4       | 6           |
+
+
+### Button Matrix
+
+| Matrix Pin | Arduino Pin |
+| ---------- | ----------- |
+| Row 1      | 10          |
+| Row 2      | 11          |
+| Col 1      | 12          |
+| Col 2      | 13          |
+
+
+### Controls
+
+| Button | Action   |
+| ------ | -------- |
+| 1      | Forward  |
+| 2      | Backward |
+| 3      | Left     |
+| 4      | Right    |
+
