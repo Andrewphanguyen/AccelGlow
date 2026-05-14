@@ -8,9 +8,9 @@ AccelGlow is an Arduino-based control system that simulates smooth acceleration 
 
 The project was built to explore:
 
-PWM motor control
-H-Bridge direction control
-Matrix keypad scanning
-Non-blocking timing using millis()
-Exponential acceleration curves
-Real-time serial debugging
+* PWM motor control
+* H-Bridge direction control
+* Matrix keypad scanning
+* Non-blocking timing using millis()
+* Exponential acceleration curves
+* Real-time serial debugging
